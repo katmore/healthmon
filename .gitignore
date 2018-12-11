@@ -1,0 +1,13 @@
+.*
+!/.gitignore
+*.log
+/vendor/*
+/config/*
+!/config/**/*-sample.php
+/web/phpinfo*.php
+/web/components/*
+/node_modules/*
+selenium*
+geckodriver
+phpdoc.xml
+!/**/.gitkeep
