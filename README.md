@@ -17,7 +17,8 @@ Checked items are currently implemented, unchecked items will be available in th
 
 **Notifications**
  - [ ] **email**
- - [ ] [**Amazon SNS**](https://aws.amazon.com/sns/)
+ - [ ] **push message** via [Amazon SNS](https://aws.amazon.com/sns/)
+ - [ ] **push message** via [AMQP](https://www.amqp.org/) (i.e. [RabbitMQ](https://www.rabbitmq.com/))
  - [ ] **SMS Text Message** via [Twilio Programmable SMS](https://www.twilio.com/sms)
  - [ ] **SMS Text Message** via [Amazon SNS Transactional SMS](https://aws.amazon.com/sns/sms-pricing/)
  - [ ] **Telephone Voice Call** via [Twilio Programmable Voice](https://www.twilio.com/voice)
