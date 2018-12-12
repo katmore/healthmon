@@ -3,7 +3,7 @@ health monitoring webservice
 
 Healthmon is a library that monitors, logs, and sends notifications for one or more [Healthsvc](https://github.com/katmore/healthsvc) webservice endpoints.
 Additionally, it provides webservice endpoints to examine the latest status and history of *healthsvc* webservice endpoints.
- 
+
 ## Feature List
 The following checkboxes describes features that are planned for inclusion in the **Healthmon** project.
 Checked items are currently implemented, unchecked items will be available in the future.
@@ -21,6 +21,25 @@ Checked items are currently implemented, unchecked items will be available in th
  - [ ] **SMS Text Message** via [Twilio Programmable SMS](https://www.twilio.com/sms)
  - [ ] **SMS Text Message** via [Amazon SNS Transactional SMS](https://aws.amazon.com/sns/sms-pricing/)
  - [ ] **Telephone Voice Call** via [Twilio Programmable Voice](https://www.twilio.com/voice)
+
+## Usage in Existing Projects
+Use *Composer* to add to an existing project.
+
+```sh
+composer require katmore/healthmon
+```
+
+## Usage as Standalone Service
+Download the project:
+```sh
+git clone https://github.com/katmore/healthmon.git
+```
+
+Update using *Composer*:
+```sh
+cd healthmon
+composer update
+```
 
 ## Unit Tests
  * [`coverage.txt`](./coverage.txt): unit test coverage report
