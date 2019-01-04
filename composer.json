@@ -1,7 +1,7 @@
 {
-    "name": "katmore/healthmon",
+    "name": "katmore/healthsvc-mon",
     "description": "health monitoring webservice",
-    "homepage":"https://github.com/katmore/healthmon",
+    "homepage":"https://github.com/katmore/healthsvc-mon",
     "type": "project",
     "license": [
        "MIT",
@@ -15,7 +15,7 @@
     ],
     "autoload": {
         "psr-4": { 
-            "Healthmon\\": "src"
+            "HealthsvcMon\\": "src"
          }
     },
     "require": {
@@ -23,8 +23,8 @@
     },
     "autoload-dev": {
         "psr-4": { 
-            "Healthmon\\TestCase\\": "tests/phpunit/TestCase", 
-            "Healthmon\\Tests\\": "tests/phpunit/Tests"
+            "HealthsvcMon\\TestCase\\": "tests/phpunit/TestCase", 
+            "HealthsvcMon\\Tests\\": "tests/phpunit/Tests"
          }
     },
     "require-dev": {
