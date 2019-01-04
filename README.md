@@ -1,11 +1,11 @@
-# Healthmon
+# Healthsvc-mon
 health monitoring webservice
 
-Healthmon is a library that monitors, logs, and sends notifications for one or more [Healthsvc](https://github.com/katmore/healthsvc) webservice endpoints.
+Healthsvc-mon is a library that monitors, logs, and sends notifications for one or more [Healthsvc](https://github.com/katmore/healthsvc) webservice endpoints.
 Additionally, it provides webservice endpoints to examine the latest status and history of *healthsvc* webservice endpoints.
 
 ## Feature List
-The following checkboxes describes features that are planned for inclusion in the **Healthmon** project.
+The following checkboxes describes features that are planned for inclusion in the **Healthsvc-mon** project.
 Checked items are currently implemented, unchecked items will be available in the future.
 
 **Monitoring and Logging**
@@ -27,18 +27,18 @@ Checked items are currently implemented, unchecked items will be available in th
 Use *Composer* to add to an existing project.
 
 ```sh
-composer require katmore/healthmon
+composer require katmore/healthsvc-mon
 ```
 
 ## Usage as Standalone Service
 Download the project:
 ```sh
-git clone https://github.com/katmore/healthmon.git
+git clone https://github.com/katmore/healthsvc-mon.git
 ```
 
 Update using *Composer*:
 ```sh
-cd healthmon
+cd healthsvc-mon
 composer update
 ```
 
@@ -58,6 +58,6 @@ The [`tests.sh`](./tests.sh) wrapper script is provided for convenience.
 ```
 
 ## Legal
-"Healthmon" is distributed under the terms of the [MIT license](LICENSE) or the [GPLv3](GPLv3) license.
+"Healthsvc-mon" is distributed under the terms of the [MIT license](LICENSE) or the [GPLv3](GPLv3) license.
 
-Copyright (c) 2018, Doug Bird. All rights reserved.
+Copyright (c) 2018-2019, Doug Bird. All rights reserved.
